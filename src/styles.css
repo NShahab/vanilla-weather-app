@@ -6,13 +6,13 @@ h1 {
   color: #7c7c7c;
   font-size: 24px;
   font-weight: 100;
-  line-height: 35px;
+  line-height: 30px;
   margin: 0;
 }
 
 ul {
-  margin: 0 0 10px;
-  padding: 15px;
+  margin: 0 0 5px;
+  padding: 5px;
 }
 
 li {
@@ -26,7 +26,10 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
-
+.weather-app {
+  margin: 20px auto;
+  max-width: 740px;
+}
 .weather-icon {
   height: 64px;
   width: 64px;
@@ -35,14 +38,14 @@ li:first-letter {
 
 .temperature {
   color: rgb(33, 33, 33);
-  font-size: 64px;
-  font-weight: 400;
+  font-size: 50px;
+  font-weight: 350;
   line-height: 1;
 }
 
 .units {
   position: relative;
-  top: -34px;
+  top: -30px;
 }
 
 .search-form {
