@@ -24,7 +24,7 @@
     <div class="container">
       <div class="weather-app">
         <div class="row justify-content-md-center">
-          <div class="row p-2 justify-content-md-center">
+          <div class="row gap-3 justify-content-md-center">
             <div class="col-sm-9 p-1">
               <div class="col-sm p-1">
                 <form class="card p-1" id="search-form">
@@ -58,9 +58,7 @@
             </div>
           </div>
 
-          <div
-            class="col-sm-3 gap-1 bg-light border rounded justify-content-center"
-          >
+          <div class="col-sm-3 mainpart gap-1 rounded justify-content-center">
             <h1 id="hcity">paris</h1>
             <ul class="list-unstyled">
               <li id="li-date">ffff</li>
@@ -90,7 +88,7 @@
             <div class="row gap-1">
               <div class="col-sm p-1 gap-0">
                 <div class="d-grid gap-1">
-                  <div class="p-3 bg-light border rounded">
+                  <div class="p-3 border rounded" id="p1">
                     <div class="row gap-0">
                       <div class="col-sm" id="datDay1">Tue</div>
                       <div class="col-sm">
@@ -118,7 +116,7 @@
                     </div>
                   </div>
 
-                  <div class="p-3 bg-light border rounded">
+                  <div class="p-3 border rounded" id="p2">
                     <div class="row gap-0">
                       <div class="col-sm" id="datDay2">Tue</div>
                       <div class="col-sm">
@@ -146,7 +144,7 @@
                     </div>
                   </div>
 
-                  <div class="p-3 bg-light border rounded">
+                  <div class="p-3 border rounded" id="p3">
                     <div class="row gap-0">
                       <div class="col-sm" id="datDay3">Tue</div>
                       <div class="col-sm">
@@ -177,7 +175,7 @@
               </div>
               <div class="col-sm p-1 gap-0">
                 <div class="d-grid gap-1">
-                  <div class="p-3 bg-light border rounded">
+                  <div class="p-3 border rounded" id="p4">
                     <div class="row gap-0">
                       <div class="col-sm" id="datDay4">Tue</div>
                       <div class="col-sm">
@@ -205,7 +203,7 @@
                     </div>
                   </div>
 
-                  <div class="p-3 bg-light border rounded">
+                  <div class="p-3 border rounded" id="p5">
                     <div class="row gap-0">
                       <div class="col-sm" id="datDay5">Tue</div>
                       <div class="col-sm">
@@ -233,7 +231,7 @@
                     </div>
                   </div>
 
-                  <div class="p-3 bg-light border rounded">
+                  <div class="p-3 border rounded" id="p6">
                     <div class="row gap-0">
                       <div class="col-sm" id="datDay6">Tue</div>
                       <div class="col-sm">
@@ -266,7 +264,8 @@
           </div>
 
           <div
-            class="col-sm-9 p-2 bg-light border rounded justify-content-md-center"
+            class="col-sm-9 p-2 border rounded justify-content-md-center"
+            id="phour"
           >
             <div class="col-sm_9 gap-2">
               <div class="hourly-forecast" id="hourlyforecast"></div>
